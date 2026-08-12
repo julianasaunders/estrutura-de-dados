@@ -1,4 +1,4 @@
-# 📘 Aula 01: Introdução à Estrutura de Dados
+# Introdução à Estrutura de Dados
 
 Seja bem-vindo(a) à nossa jornada de aprendizado! 🚀 Nesta primeira aula, vamos explorar os fundamentos que baseiam a lógica de programação.
 
