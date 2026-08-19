@@ -1,11 +1,3 @@
-Aqui está o código completo formatado em Markdown (.md), super didático, visual e organizado com tabelas, blocos de código e emojis para facilitação de leitura!  Markdown# 📚 Resumo de Aula: Estruturas Condicionais & Revisão de Lógica
-
-> **Curso:** Análise e Desenvolvimento de Sistemas (ADS) — Fatec Itapetininga  
-> **Disciplina:** Estrutura de Dados  
-> **Tema:** Aula 03 – Revisão de Conteúdos (Condicional e Operadores)
-
----
-
 ## 📑 Agenda da Aula
 1. 🧠 **Revisão de Conceitos Básicos**: Variáveis, Operadores de Atribuição e Aritméticos
 2. 🔀 **Estruturas de Decisão**: `if`, `else`, Estrutura Encadeada (`elif`)
