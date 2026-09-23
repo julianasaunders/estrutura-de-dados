@@ -8,7 +8,6 @@ Seja bem-vindo(a) à nossa jornada de aprendizado! 🚀 Nesta primeira aula, vam
 
 * **🎓 Formação:** Mestre em Engenharia Elétrica pela Universidade Estadual Paulista (UNESP – Câmpus de Sorocaba), com pesquisa voltada à inteligência artificial aplicada e automação, e Especialista na área de Computação e Tecnologia.
 * **💼 Atuação Docente:** Professor de Ensino Superior na Fatec Itapetininga, com sólida experiência no ensino de disciplinas como Estrutura de Dados e Engenharia de Software, além de orientação e desenvolvimento de projetos de inovação tecnológica.
-* **🔗 Currículo Lattes:** [Acesse o Lattes do Professor Danilo](https://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=EC1CEACBBF6D6909CF1BB1A279753907.buscatextual_0?utm_source=gemini)
 
 ---
 
