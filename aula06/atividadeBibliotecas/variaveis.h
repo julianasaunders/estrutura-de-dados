@@ -1,2 +1,0 @@
-int codigo;
-int valor;

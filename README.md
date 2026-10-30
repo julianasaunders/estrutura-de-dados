@@ -1,92 +1,43 @@
-# Introdução à Estrutura de Dados
+# 🧮 Estrutura de Dados
 
-Seja bem-vindo(a) à nossa jornada de aprendizado! 🚀 Nesta primeira aula, vamos explorar os fundamentos que baseiam a lógica de programação.
+Repositório com as anotações, resumos e exercícios em **C/C++** desenvolvidos na disciplina de **Estrutura de Dados** do terceiro ciclo de **Análise e Desenvolvimento de Sistemas**. O material está organizado por aula e acompanha a evolução da lógica de programação até vetores, matrizes, strings e `structs`.
 
----
+## 📚 Conteúdo das aulas
 
-## 👨‍🏫 Sobre o Professor: Danilo Ruy Gomes
+| Aula | Assunto | Material |
+|---|---|---|
+| **01** | Introdução à disciplina, algoritmos e variáveis | [Resumo e atividades](Aula%2001%20%E2%80%94%20Introdu%C3%A7%C3%A3o%20%C3%A0%20Estrutura%20de%20Dados/README.md) |
+| **02** | Revisão de lógica e estruturas condicionais | [Resumo e exercícios](Aula%2002%20%E2%80%94%20Revis%C3%A3o%20de%20L%C3%B3gica%20e%20Estruturas%20Condicionais/README.md) |
+| **03** | Condicionais, `switch/case` e operador ternário | [Resumo e desafios](Aula%2003%20%E2%80%94%20Condicionais,%20Switch-Case%20e%20Operador%20Tern%C3%A1rio/README.md) |
+| **04** | Funções com e sem retorno | [Exercícios](Aula%2004%20%E2%80%94%20Fun%C3%A7%C3%B5es%20com%20e%20sem%20Retorno/README.md) |
+| **05** | Funções com parâmetros, vetores e sistema de vendas | [Atividade e tarefa](Aula%2005%20%E2%80%94%20Fun%C3%A7%C3%B5es,%20Vetores%20e%20Sistema%20de%20Vendas/README.md) |
+| **06** | Bibliotecas próprias (`headers`), vetores e matrizes | [Atividades](Aula%2006%20%E2%80%94%20Bibliotecas,%20Vetores%20e%20Matrizes/README.md) |
+| **07** | Manipulação de strings | [Atividade](Aula%2007%20%E2%80%94%20Manipula%C3%A7%C3%A3o%20de%20Strings/README.md) |
+| **08** | Vetores e listas | [Atividades](Aula%2008%20%E2%80%94%20Vetores%20e%20Listas/README.md) |
+| **09** | `structs` e registros | [Atividades](Aula%2009%20%E2%80%94%20Structs/README.md) |
 
-* **🎓 Formação:** Mestre em Engenharia Elétrica pela Universidade Estadual Paulista (UNESP – Câmpus de Sorocaba), com pesquisa voltada à inteligência artificial aplicada e automação, e Especialista na área de Computação e Tecnologia.
-* **💼 Atuação Docente:** Professor de Ensino Superior na Fatec Itapetininga, com sólida experiência no ensino de disciplinas como Estrutura de Dados e Engenharia de Software, além de orientação e desenvolvimento de projetos de inovação tecnológica.
+## 🎓 Sobre a disciplina
 
----
+**Professor:** Me. Danilo Ruy Gomes  
+**Instituição:** Fatec — Faculdade de Tecnologia de Itapetininga  
+**Encontros:** 4 aulas semanais, às quartas-feiras (07:40 – 11:10)
 
-## 🗓️ Cronograma das Aulas
+### 📖 Conteúdo programático
 
-Temos 04 aulas semanais nas quartas-feiras:
+1. ✅ **Revisão:** variáveis, condicionais, repetições e operadores.
+2. ✅ **Funções:** com e sem retorno.
+3. ✅ **Estruturas de dados:** vetores, matrizes, filas e pilhas.
+4. ✅ **Algoritmos:** recursividade, métodos de ordenação e complexidade.
+5. ✅ **Grafos:** introdução ao tema.
 
-| Período | Horário |
-| --- | --- |
-| 1ª Aula | 07:40 - 08:30 |
-| 2ª Aula | 08:30 - 09:20 |
-| 3ª Aula | 09:30 - 10:20 |
-| 4ª Aula | 10:20 - 11:10 |
-
----
-
-## 📝 Conteúdo Programático
-
-O que vamos aprender nesta disciplina:
-
-1. ✅ **Revisão:** Variáveis, condicionais, repetições e operadores.
-2. ✅ **Funções:** Com e sem retorno.
-3. ✅ **Estruturas de Dados:** Vetores, Matrizes, Filas e Pilhas.
-4. ✅ **Algoritmos:** Recursividade, Métodos de ordenação e Complexidade.
-5. ✅ **Grafos:** Introdução ao tema.
-
----
-
-## 🧮 Critério de Avaliação
-
-O cálculo da média semestral baseia-se em duas provas ($P1$ e $P2$) com peso de 35% cada, somadas à pontuação das atividades contínuas ($ATV$):
+### 🧮 Critério de avaliação
 
 $$\text{Média} = (P1 \times 0.35) + (P2 \times 0.35) + \text{ATV}$$
 
-* **Critério de Aprovação Direta:** Se $\text{Média} \ge 6.0$, o aluno é **aprovado**.
-* **Prova Substitutiva (SUB):** Caso a $\text{Média} < 6.0$, o estudante tem direito à Prova Substitutiva, cuja nota substitui a menor avaliação entre $P1$ e $P2$:
+Aprovação direta com média $\ge 6.0$. Abaixo disso, o aluno pode fazer a **Prova Substitutiva (SUB)**, que substitui a menor nota entre $P1$ e $P2$.
 
-$$\text{Nova Média} = (\text{SUB} \times 0.35) + (\max(P1, P2) \times 0.35) + \text{ATV}$$
+### 📚 Referências
 
-* Se $\text{Nova Média} \ge 6.0$, o aluno está **aprovado após a SUB**; caso contrário, é reprovado.
-
----
-
-## 🧠 Revisão: Construindo Algoritmos
-
-Qualquer tarefa com padrão pode ser um algoritmo! Para construir um, divida em três fases:
-
-1. 📥 **Entrada:** Coleta de dados (Ex: Teclado `scanf` em C / `cin` em C++).
-2. ⚙️ **Processamento:** Manipulação dos dados.
-3. 📤 **Saída:** Resultado final (Ex: `printf` em C / `cout` em C++).
-
-### Exemplo Prático: Calcular Média
-
-* **Pergunta a)** Quais os dados de entrada? `P1, P2, ATV`.
-* **Pergunta b)** Qual o processamento? `(P1 * 0.35) + (P2 * 0.35) + ATV`.
-* **Pergunta c)** Qual a saída? `Média Final e Status de Aprovação`.
-
----
-
-## 📦 Variáveis
-
-Imagine a memória do computador como um **gaveteiro** 🗄️.
-
-* Uma variável é um **espaço reservado** (contêiner) onde guardamos valores.
-* O valor dentro desse contêiner pode **mudar** ao longo da execução!
-
----
-
-## 🛠️ Atividades Práticas
-
-1. 🌡️ **Conversão de Temperatura:** Ler Fahrenheit e exibir Celsius.
-* Fórmula: `Celsius = ((Fahrenheit - 32) * 5) / 9`
-
-
-2. 📐 **Área do Triângulo:** Ler base e altura e calcular a área.
-* Fórmula: `Area = (Base * Altura) / 2`
-
-
-
----
-
-*Bons estudos! 🚀*
+- DEITEL, H. M.; DEITEL, P. J. *C++: Como Programar*. 6. ed. Pearson, 2011.
+- CORMEN, T. H.; LEISERSON, C. E.; RIVEST, R. L.; STEIN, C. *Algoritmos: Teoria e Prática*. 3. ed. Elsevier, 2012.
+- [C++ Reference](https://en.cppreference.com/)
